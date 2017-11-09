@@ -1,15 +1,17 @@
 {
-  "name": "capivara-archetype",
+  "name": "capivara-project-name",
   "version": "1.0.0",
-  "description": "Archetype",
+  "description": "project-name",
   "main": "src/index.ts",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.dev.config.js",
-    "prod": "webpack --config ./webpack.production.config.js"
+    "prod": "webpack --config ./webpack.production.config.js",
+    "test": "karma start",
+    "test-once": "karma start --single-run"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CapivaraJS/capivara-archetype.git"
+    "url": "git+https://github.com/CapivaraJS/capivara-project-name.git"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.2.3",
@@ -21,9 +23,11 @@
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
     "html-loader": "^0.5.1",
+    "jasmine-core": "^2.8.0",
     "karma": "^1.7.1",
     "karma-babel-preprocessor": "^7.0.0",
     "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
     "karma-coverage": "^1.1.1",
     "karma-jasmine": "^1.1.0",
     "karma-jshint-preprocessor": "0.0.6",
@@ -31,6 +35,8 @@
     "karma-mocha-reporter": "^2.2.5",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-spec-reporter": "0.0.31",
+    "karma-typescript": "^3.0.8",
+    "karma-typescript-es6-transform": "^1.0.2",
     "karma-webpack": "^2.0.5",
     "mocha": "^4.0.1",
     "node-sass": "^4.5.3",
@@ -52,7 +58,7 @@
   "author": "CapivaraJS Team",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/CapivaraJS/capivara-archetype/issues"
+    "url": "https://github.com/CapivaraJS/capivara-project-name/issues"
   },
-  "homepage": "https://github.com/CapivaraJS/capivara-archetype#readme"
+  "homepage": "https://github.com/CapivaraJS/capivara-project-name#readme"
 }

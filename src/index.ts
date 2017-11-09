@@ -1,1 +1,1 @@
-console.log('hello world.')
+export { ProjectName } from './project-name/project-name.component'

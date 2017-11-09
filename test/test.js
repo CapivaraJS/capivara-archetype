@@ -1,1 +1,0 @@
-require.context(".", true, /spec$/).keys().forEach(testsContext);
