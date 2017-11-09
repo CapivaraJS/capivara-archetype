@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.dev.config.js",
-    "prod": "webpack --config ./webpack.production.config.js",
+    "prod": "npm run test-one && webpack --config ./webpack.production.config.js",
     "test": "karma start",
     "test-once": "karma start --single-run"
   },
@@ -14,6 +14,7 @@
     "url": "git+https://github.com/CapivaraJS/capivara-project-name.git"
   },
   "devDependencies": {
+    "@types/jasmine": "^2.6.3",
     "awesome-typescript-loader": "^3.2.3",
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
@@ -23,6 +24,7 @@
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
     "html-loader": "^0.5.1",
+    "jasmine": "^2.8.0",
     "jasmine-core": "^2.8.0",
     "karma": "^1.7.1",
     "karma-babel-preprocessor": "^7.0.0",
@@ -37,6 +39,7 @@
     "karma-spec-reporter": "0.0.31",
     "karma-typescript": "^3.0.8",
     "karma-typescript-es6-transform": "^1.0.2",
+    "karma-typescript-preprocessor": "^0.3.1",
     "karma-webpack": "^2.0.5",
     "mocha": "^4.0.1",
     "node-sass": "^4.5.3",
@@ -60,5 +63,6 @@
   "bugs": {
     "url": "https://github.com/CapivaraJS/capivara-project-name/issues"
   },
-  "homepage": "https://github.com/CapivaraJS/capivara-project-name#readme"
+  "homepage": "https://github.com/CapivaraJS/capivara-project-name#readme",
+  "dependencies": {}
 }

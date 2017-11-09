@@ -1,8 +1,12 @@
-import { ProjectName } from '../../src/index';
+import {} from 'jasmine';
+import { ProjectName } from '../../src/index'
 
-describe('first test', () => {
+describe('first test', () => {    
     it('test', () => {
-        let test = new ProjectName();
-        expect(test.test()).toBe('test');
+        expect(true).toBe(true);
     });
+    
+    it('test class', () => {
+        expect(new ProjectName().test()).toBe('test');
+    })
 });
