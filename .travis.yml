@@ -18,7 +18,11 @@ node_js:
 before_script: 
  - npm install
 script:
- - npm run test-once
+ - npm run prod
+ - npm publish
 branches:
   only:
   - master
+# before_install:
+#   - printf "//registry.npmjs.org/:_authToken=${NPM_TOKEN}\n" >> .npmrc
+  
