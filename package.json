@@ -10,11 +10,11 @@
     "test-once": "karma start --single-run"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CapivaraJS/capivara-project-name.git"
+    "type": "git"
   },
   "devDependencies": {
     "@types/jasmine": "^2.6.3",
+    "@types/node": "^9.4.6",
     "awesome-typescript-loader": "^3.2.3",
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
@@ -56,13 +56,12 @@
   },
   "keywords": [
     "capivara",
-    "components"
+    "components",
+    "capivara-project-name"
   ],
   "author": "CapivaraJS Team",
   "license": "LGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/CapivaraJS/capivara-project-name/issues"
-  },
-  "homepage": "https://github.com/CapivaraJS/capivara-project-name#readme",
-  "dependencies": {}
+  "dependencies": {
+    "capivarajs": "*"
+  }
 }

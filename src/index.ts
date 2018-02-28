@@ -1,5 +1,8 @@
-import { ProjectName } from './project-name/project-name.component'
+import capivara from 'capivarajs';
 
-declare let window;
+import { ProjectName } from './component/project-name.component';
 
-window.ProjectName = window.ProjectName || ProjectName;
+export default capivara.component('project-name', {
+    template  : require('./component/project-name.template.html'),
+    controller: ProjectName
+});
