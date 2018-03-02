@@ -1,5 +1,5 @@
 import {} from 'jasmine';
-import { ProjectName } from '../../src/project-name/project-name.component'
+import { ProjectName } from '../../src/component/project-name.component'
 
 describe('first test', () => {    
     it('test', () => {
