@@ -1,5 +1,6 @@
 import {} from 'jasmine';
-import { ProjectName } from '../../src/component/project-name.component'
+import capivara from '../index';
+import { ProjectName } from './project-name.component';
 
 describe('first test', () => {    
     it('test', () => {

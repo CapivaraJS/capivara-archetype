@@ -1,6 +1,7 @@
 export class ProjectName {
 
-    message: string;
+    private componentName: string;
+    private visibleMessage: boolean;
 
     constructor(){
     }
@@ -11,15 +12,15 @@ export class ProjectName {
     }
     
     $onInit(){
-        this.message = 'CapivaraJS';
+        this.componentName = 'ProjectName';
     }
 
     $destroy(){
         console.log('component destroyed');
     }
 
-    onButtonClick(){
-        console.log('clicou');
+    toogleMessage(){
+        this.visibleMessage = !this.visibleMessage;
     }
 
 }
