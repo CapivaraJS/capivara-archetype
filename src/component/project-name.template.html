@@ -1,3 +1,11 @@
-<h1>[[$ctrl.message]]</h1>
+<h1>Componente [[$ctrl.componentName]]</h1>
 
-<button cp-click="$ctrl.onButtonClick()">Clique-me</button>
+<p cp-show="$ctrl.visibleMessage">
+    Você criou esse incrível componente, acesse a sessão 
+    <a href="http://capivarajs.github.io/apiReference.html">API Reference</a> 
+    e veja as funcionalidades que o capivara te oferece. 
+</p>
+
+<button cp-click="$ctrl.toogleMessage()">
+    [[ $ctrl.visibleMessage ? 'Fechar' : 'Abrir' ]]
+</button>

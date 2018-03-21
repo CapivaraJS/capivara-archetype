@@ -10,6 +10,7 @@ pubspec.lock
 modules/.settings
 .vscode
 modules/.vscode
+coverage
 
 # Ignore npm/yarn debug log
 npm-debug.log
