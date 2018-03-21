@@ -5,7 +5,6 @@ export class ProjectName {
     constructor(){
     }
 
-    //Metodo usado para exemplificar a execução dos testes.  //npm run test
     test(){
         return 'test';
     }
