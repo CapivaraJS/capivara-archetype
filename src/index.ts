@@ -3,7 +3,8 @@
 */
 
 import capivara from 'capivarajs';
-
+import template from './component/project-name.template.html';
+import style from './component/project-name.style.scss';
 import { ProjectName } from './component/project-name.component';
 
 const Component = {
@@ -11,12 +12,12 @@ const Component = {
      * @name template
      * @description Applies the visual part of the component
      */
-    template  : require('./component/project-name.template.html'),
+    template  : template,
     /**
      * @name style
      * @description Import component style
      */
-    style     : require('./component/project-name.style.scss'),
+    style     : style,
     /**
      * @name constants
      * @description Declares the constants that will be accepted by component. See https://capivarajs.github.io/components.html#constants
