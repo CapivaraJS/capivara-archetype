@@ -14,7 +14,11 @@
     <script src="dist/capivara-archetype.js"></script>
 
     <script>
-        capivara.componentBuilder('myComponent').build();
+        capivara.componentBuilder('myComponent')
+                .constants({
+                    title: 'ProjectName'
+                })
+                .build();
     </script>
     
 </body>

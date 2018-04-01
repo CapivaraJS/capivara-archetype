@@ -1,4 +1,7 @@
 export class ProjectName {
+    public $constants;
+    public $functions;
+    public $bindings;
 
     private componentName: string;
     private visibleMessage: boolean;
@@ -6,12 +9,8 @@ export class ProjectName {
     constructor(){
     }
 
-    test(){
-        return 'test';
-    }
-    
     $onInit(){
-        this.componentName = 'ProjectName';
+        console.log('Params: ', this.$constants.title);
     }
 
     $destroy(){

@@ -1,7 +1,6 @@
 /* 
     Component created by capivara-cli https://capivarajs.github.io/
 */
-
 import capivara from 'capivarajs';
 import template from './component/project-name.template.html';
 import style from './component/project-name.style.scss';
@@ -22,7 +21,7 @@ const Component = {
      * @name constants
      * @description Declares the constants that will be accepted by component. See https://capivarajs.github.io/components.html#constants
      */
-    constants: [],
+    constants: ['title'],
     /**
      * @name functions
      * @description Declares the functions that will be accepted by component. See https://capivarajs.github.io/components.html#functions
