@@ -1,7 +1,7 @@
 {
-  "name": "capivara-project-name",
+  "name": "cp-project-name",
   "version": "1.0.0",
-  "description": "project-name",
+  "description": "cp-project-name",
   "main": "src/index.ts",
   "scripts": {
     "dev": "webpack-dev-server --config ./config/webpack.dev.js",
@@ -44,8 +44,9 @@
   },
   "keywords": [
     "capivara",
+    "capivarajs",
     "components",
-    "capivara-project-name"
+    "cp-project-name"
   ],
   "author": "CapivaraJS Team",
   "license": "LGPL-3.0",

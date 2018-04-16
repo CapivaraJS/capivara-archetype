@@ -39,4 +39,4 @@ const Component = {
     controller: ProjectName
 };
 
-export default capivara.component('project-name', Component);
+export default capivara.component('cp-project-name', Component);

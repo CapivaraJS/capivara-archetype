@@ -9,13 +9,13 @@ module.exports = merge(webpackCommon, {
     mode: 'production',
     output: {
         path: path.join(__dirname, '../dist/'),
-        filename: 'capivara-archetype.min.js',
+        filename: 'cp-project-name.min.js',
         publicPath: '/dist/'
     },
     plugins: [
         new UglifyJSPlugin(),
         new ExtractTextPlugin({
-            filename: "capivara-archetype.min.css",
+            filename: "cp-project-name.min.css",
             allChunks: true
         })
     ],

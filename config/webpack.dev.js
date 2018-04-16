@@ -9,7 +9,7 @@ module.exports = merge(webpackCommon, {
     devtool: 'source-map',
     output: {
         path: path.join(__dirname, '../dist/'),
-        filename: 'capivara-archetype.js',
+        filename: 'cp-project-name.js',
         publicPath: '/dist/'
     },
     devServer: {
@@ -19,7 +19,7 @@ module.exports = merge(webpackCommon, {
     },
     plugins: [
         new ExtractTextPlugin({
-            filename: "capivara-archetype.css",
+            filename: "cp-project-name.css",
             allChunks: true
         })
     ],
