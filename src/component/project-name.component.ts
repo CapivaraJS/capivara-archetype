@@ -10,11 +10,11 @@ export class ProjectName {
     }
 
     $onInit(){
-        console.log('Params: ', this.$constants.title);
+        console.log('Component created.');
     }
 
     $destroy(){
-        console.log('component destroyed');
+        console.log('Component destroyed.');
     }
 
     toogleMessage(){

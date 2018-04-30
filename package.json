@@ -19,7 +19,6 @@
     "@types/jasmine": "^2.6.3",
     "@types/node": "^9.4.6",
     "babel-loader": "^7.1.4",
-    "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.2",
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
@@ -51,6 +50,6 @@
   "author": "CapivaraJS Team",
   "license": "LGPL-3.0",
   "dependencies": {
-    "capivarajs": "1.11.4"
+    "capivarajs": "2.0.1"
   }
 }
