@@ -10,7 +10,6 @@ export class ProjectName {
     }
 
     $onInit(){
-        console.log('Component created.');
     }
 
     $destroy(){
