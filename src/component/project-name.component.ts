@@ -6,17 +6,17 @@ export class ProjectName {
     private componentName: string;
     private visibleMessage: boolean;
 
-    constructor(){
+    constructor(private $scope, private $element) {
     }
 
-    $onInit(){
+    $onInit() {
     }
 
-    $destroy(){
+    $destroy() {
         console.log('Component destroyed.');
     }
 
-    toogleMessage(){
+    toogleMessage() {
         this.visibleMessage = !this.visibleMessage;
     }
 
