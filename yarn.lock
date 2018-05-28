@@ -2008,9 +2008,9 @@ caniuse-lite@^1.0.30000835:
   version "1.0.30000839"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000839.tgz#41fcc036cf1cb77a0e0be041210f77f1ced44a7b"
 
-capivarajs@3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/capivarajs/-/capivarajs-3.2.4.tgz#4f0e4d4e3c263db88877d4275590784659816767"
+capivarajs@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/capivarajs/-/capivarajs-3.5.0.tgz#ee557fc5de7375cc15586ddfde3814617c3145a3"
   dependencies:
     lodash "^4.17.5"
     melanke-watchjs "^1.4.3"
