@@ -3,11 +3,9 @@ export class ProjectName {
     public $functions;
     public $bindings;
 
-    private componentName: string;
     private visibleMessage: boolean;
 
-    constructor(private $scope, private $element) {
-    }
+    constructor(private $scope, private $element) { }
 
     $onInit() {
     }
