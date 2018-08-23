@@ -1,21 +1,29 @@
-export class ProjectName {
-    public $constants;
-    public $functions;
-    public $bindings;
+import { Component, Controller, OnInit } from 'capivarajs';
+import template from './project-name.template.html';
+import style from './project-name.style.scss';
 
-    private visibleMessage: boolean;
+@Component({
+  tag: 'cp-project-name',
+  template,
+  style,
+  bindings: ['myParameter'],
+  functions: [],
+  constants: [],
+})
+export class ProjectName extends Controller implements OnInit {
 
-    constructor(private $scope, private $element) { }
+  private visibleMessage: boolean;
 
-    $onInit() {
-    }
+  constructor(public $scope, public $element) {
+    super($scope, $element);
+  }
 
-    $destroy() {
-        console.log('Component destroyed.');
-    }
+  $onInit() {
+    console.log('Component created.');
+  }
 
-    toogleMessage() {
-        this.visibleMessage = !this.visibleMessage;
-    }
+  toogleMessage() {
+    this.visibleMessage = !this.visibleMessage;
+  }
 
 }
