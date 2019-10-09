@@ -1,4 +1,4 @@
-# ProjectName
+# Capivara Archetype
 
 O capivara-project-name é um componente CapivaraJS.
 
