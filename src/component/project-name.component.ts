@@ -19,7 +19,7 @@ export class ProjectName extends Controller implements OnInit {
   }
 
   $onInit() {
-    console.log('Component created.');
+    console.log('When component created.');
   }
 
   toogleMessage() {
